@@ -2,6 +2,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.title {
+  background-color: #4F6367;
+  color:#EEF5DB;
+  text-align: center;
+  box-shadow: 0px 5px 4px 0px rgba(132,132,132,1);
+}
+
 /***********************
       HEADER
 ***********************/
@@ -11,7 +18,7 @@ body {
 
 .nav-bar{
   background-color: #7A9E9F;
-  box-shadow: 0px 11px 5px #848484;
+  box-shadow: 0px 5px 4px 0px rgba(132,132,132,1);
   padding:5px;
 }
 
