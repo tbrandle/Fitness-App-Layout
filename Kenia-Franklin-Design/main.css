@@ -1,10 +1,37 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  background-color: #4F6367;
+  color:#EEF5DB;
+  text-align: center;
+  box-shadow: 0px 5px 4px 0px rgba(132,132,132,1);
+}
+
 /***********************
       HEADER
 ***********************/
+.mobile-bar {
+  padding-left: 5px;
+}
 
 .nav-bar{
-
+  background-color: #7A9E9F;
+  box-shadow: 0px 5px 4px 0px rgba(132,132,132,1);
+  padding:5px;
 }
+
+.icon {
+  height:32px;
+  width:32px;
+}
+
+.right-nav {
+  float:right;
+  margin-right: 20px;
+}
+
 
 /*******************************
       STATUS SECTION
@@ -23,7 +50,7 @@
 }
 
 .stats{
-  
+
 }
 
 /*******************************
