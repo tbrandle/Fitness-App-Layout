@@ -145,7 +145,7 @@ h1, h2, h3, p{
 .arrow {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
   /********** log **********/
