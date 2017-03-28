@@ -1,66 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>FitQuest</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="normalize.css"  title="no title">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
-  </head>
-  <body>
-    <nav class="nav-bar">
-      <!-- menu icon -->
-      <img src="./images/menu.svg" alt="menu icon" class="icon">
-      <!-- shopping cart icon -->
-      <img src="./images/cart.svg" alt="cart icon" class="icon right-nav">
-      <!-- profile icon -->
-      <img src="./images/profile.svg" alt="profile icon" class="icon right-nav">
-      <!-- mail icon -->
-      <img src="./images/mail.svg" alt="mail icon" class="icon right-nav">
-    </nav>
-    <section class="section">
-      <img src="./images/avatar.png" alt="avatar image">
-    </section>
-    <section class="section">
-      <h1 class="title">Challenges</h1>
-      <div class="">
-        <h2>DEX</h2>
-        <p>+20pts</p>
+<head>
+  <meta charset="utf-8">
+  <title>FitQuest</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="normalize.css"  title="no title">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+</head>
+<body>
+  <nav class="nav-bar">
+    <!-- menu icon -->
+    <img src="./images/menu.svg" alt="menu icon" class="icon">
+    <!-- shopping cart icon -->
+    <img src="./images/cart.svg" alt="cart icon" class="icon right-nav">
+    <!-- profile icon -->
+    <img src="./images/profile.svg" alt="profile icon" class="icon right-nav">
+    <!-- mail icon -->
+    <img src="./images/mail.svg" alt="mail icon" class="icon right-nav">
+  </nav>
+  <section class="section">
+    <img src="./images/avatar.png" alt="avatar image">
+  </section>
+  <section class="section">
+    <h1 class="title">Challenges</h1>
+    <div class="challenges dex">
+      <h2 class="skill">DEX</h2>
+      <p class="points">+20pts</p>
+    </div>
+    <div class="challenges miles">
+      <h3 class="run">Run 3 miles</h3>
+      <p class="chr">* add a friend for 10CHR pts</p>
+    </div>
+    <div class="challenges map">
+      <img src="./images/map.png" alt="running map">
+    </div>
+  </section>
+  <section class="section">
+    <!-- scroll icon -->
+    <h1 class="title">Today</h1>
+    <!-- arrow icon -->
+    <!-- arrow icon -->
+    <div class="calendar">
+      <div class="day">Sun.</div>
+      <div class="day">Mon.</div>
+      <div class="day">Tues.</div>
+      <div class="day">Wed.</div>
+      <div class="day">Thur.</div>
+      <div class="day">Fri.</div>
+      <div class="day">Sat.</div>
+      <div class="day arrow"><img class="icon" src="images/next.svg" alt="next"/></div>
+      <!-- arrow icon -->
+    </div>
+  </section>
+  <section class="section log-section">
+    <h1 class="title">Food Log</h1>
+    <div class="food-log food-nums">
+      <p class="nums">1,109 - 1,700 + 273 = 864</p>
+      <p class="subtext">
+        <span>Food goal</span>
+        <span>Food today</span>
+        <span>Challenges</span>
+        <span>Remaining</span>
+      </p>
+    </div>
+    <div class="food-log log">
+      <div class="img-wrapper">
+        <img src="images/log-icon.png" alt="log icon">
+        <p class="log-text">Log</p>
       </div>
-      <div class="">
-        <h3>Run 3 miles</h3>
-        <p>add a friend for 10CHR pts</p>
-        <!-- graph icon -->
-      </div>
-    </section>
-    <section class="section">
-      <!-- scroll icon -->
-      <h1 class="title">Today</h1>
-        <!-- arrow icon -->
-        <!-- arrow icon -->
-      <div class="calendar">
-        <div class="day">Sun.</div>
-        <div class="day">Mon.</div>
-        <div class="day">Tues.</div>
-        <div class="day">Wed.</div>
-        <div class="day">Thur.</div>
-        <div class="day">Fri.</div>
-        <div class="day">Sat.</div>
-        <div class="day arrow"><img class="icon" src="images/next.svg" alt="next"/></div>
-        <!-- arrow icon -->
-      </div>
-    </section>
-    <section class="section log-section">
-      <h1 class="title">Food Log</h1>
-      <div class="">
-        1,109 - 1,700 + 273 = 864
-        Food goal
-        Food today
-        Challenges
-        Remaining
-      </div>
-      <!-- log icon -->
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
 </html>
