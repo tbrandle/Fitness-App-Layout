@@ -45,6 +45,7 @@ h1, h2, h3, p{
 }
 
 .title {
+  height: 32px;
   display: flex;
   font-size: 23px;
   flex: 100%;
@@ -71,6 +72,10 @@ h1, h2, h3, p{
 }
 
   /********** challenges **********/
+
+.desktop-section{
+  display: none;
+}
 
 .challenges {
   display: flex;
@@ -243,7 +248,12 @@ hidden shit*/
 *******************************/
 
 @media (min-width: 560px) {
-
+    .desktop-section{
+      display: flex;
+    }
+    .mobile-section{
+      display: none;
+    }
     .main {
       display: flex;
       flex-wrap: wrap;
