@@ -65,6 +65,46 @@ h1{
 }
 
   /********** challenges **********/
+.challenges {
+  background-color: #EEF5DB;
+  border: 1px #979797 solid;
+  color:#4F6367;
+}
+
+.dex {
+  flex:1.25;
+  text-align: center;
+}
+
+.skill {
+  margin:15px 0px 5px 0px;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.points {
+  margin:0px;
+}
+
+.miles {
+  flex:1.75;
+  border-right:none;
+}
+
+.run {
+  margin:25px 0px 5px 8px;
+  font-weight:300;
+  font-size:.90em;
+}
+
+.chr {
+  margin:0px 0px 10px 5px;
+  font-size: .70em;
+}
+
+.map {
+  border-left: none;
+}
 
 
 
@@ -77,7 +117,7 @@ h1{
 }
 
 .day {
-  border: 1px grey solid;
+  border: 1px #979797 solid;
   background-color: #eef4da;
   flex: 1 1 23%;
   height: 80px;
@@ -94,6 +134,53 @@ h1{
 
 .log-section{
 
+}
+
+.food-log {
+  background-color: #EEF5DB;
+  border: 1px #979797 solid;
+  color:#4F6367;
+  text-align:center;
+}
+
+.food-nums {
+  flex:1;
+  border-right: none;
+}
+
+.nums {
+  font-weight: 700;
+  font-size: 1.15em;
+  margin: 15px 0px 0px 0px;
+}
+
+.subtext {
+  font-size: .5em;
+  margin: 0px 0px 15px;
+}
+
+span {
+  margin:5px;
+}
+
+.img-wrapper {
+  background-color:#4F6367;
+  border-radius: 8px;
+  width: 55px;
+  height: 27px;
+  display: flex;
+}
+
+.log {
+  border-left: none;
+  padding:20px 5px;
+}
+
+.log-text {
+  color: #EEF5DB;
+  margin-top: 7px;
+  font-weight: 700;
+  font-size: .6em;
 }
 
 /*******************************
