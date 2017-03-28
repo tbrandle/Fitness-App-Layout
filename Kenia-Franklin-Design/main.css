@@ -2,24 +2,23 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.title {
-  background-color: #4F6367;
-  color:#EEF5DB;
-  text-align: center;
-  box-shadow: 0px 5px 4px 0px rgba(132,132,132,1);
+h1{
+  margin: 0;
 }
 
-/***********************
-      HEADER
-***********************/
+/*******************************
+            HEADER
+********************************/
+
 .mobile-bar {
   padding-left: 5px;
 }
 
 .nav-bar{
   background-color: #7A9E9F;
-  box-shadow: 0px 5px 4px 0px rgba(132,132,132,1);
+  box-shadow: 0px 5px 4px 0px rgb(132,132,132);
   padding:5px;
+  margin-bottom: 7px;
 }
 
 .icon {
@@ -32,14 +31,26 @@ body {
   margin-right: 20px;
 }
 
-
 /*******************************
-      STATUS SECTION
-*******************************/
+            SECTIONS
+********************************/
 
-.status-section{
-
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 13px;
 }
+
+.title {
+  flex: 100%;
+  background-color: #4F6367;
+  color:#EEF5DB;
+  text-align: center;
+  box-shadow: 0px 5px 4px 0px rgb(132,132,132);
+  margin-bottom: 17px;
+}
+
+  /********** status **********/
 
 .avatar-name{
 
@@ -53,30 +64,37 @@ body {
 
 }
 
-/*******************************
-      CHALLENGES SECTION
-*******************************/
+  /********** challenges **********/
 
-.challenges-section{
 
+
+  /********** calendar **********/
+
+.calendar{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-/*******************************
-      CALENDAR SECTION
-*******************************/
-
-.calendar-section{
-
+.day {
+  border: 1px grey solid;
+  background-color: #eef4da;
+  flex: 1 1 23%;
+  height: 80px;
 }
 
-/*******************************
-      LOG SECTION
-*******************************/
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+  /********** log **********/
+
 
 .log-section{
 
 }
-
 
 /*******************************
       MEDIA QUERIES
