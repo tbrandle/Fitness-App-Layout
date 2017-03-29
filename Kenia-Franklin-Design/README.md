@@ -1,5 +1,5 @@
 ##Project Summary
-Our approach for this project was very collaborative. We thoroughly talked through how the build out would go (i.e. starting mobile first, break points, use of flexbox, etc.) and began the project by using the "ping-pong" method to split the workload. From there on out, we split up coding different sections on both the mobile and desktop versions. This gave both of us the opportunity to "touch" all areas of the comp.
+Our approach for this project was very collaborative. We thoroughly talked through how the build out would go (i.e. starting mobile first, break points, use of flexbox, etc.) and began the project by using the "ping-pong" method to split the workload. From there on out, we split up coding different sections on both the mobile and desktop versions. This gave both of us the opportunity to "touch" all areas of the comp. Since the Food Log and Challenges Sections for desktop were so different from mobile, we decided to build two versions for both desktop and mobile and toggle display: none in the media queries. 
 
 
 ##Sources of inspiration for the design team:
