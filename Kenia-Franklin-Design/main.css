@@ -49,13 +49,12 @@ h1, h2, h3, p{
   display: flex;
   font-size: 23px;
   flex: 100%;
-  justify-content: space-around;
   background-color: #4F6367;
   color:#EEF5DB;
-  text-align: center;
   box-shadow: 0px 5px 4px 0px rgb(132,132,132);
   margin-bottom: 8px;
 }
+
 
   /********** challenges **********/
 
@@ -139,7 +138,7 @@ h1, h2, h3, p{
   border: 1px #979797 solid;
   background-color: #eef4da;
   flex: 1 1 23%;
-  height: 80px;
+  height: 100px;
 }
 
 .arrow {
@@ -170,7 +169,7 @@ h1, h2, h3, p{
 
 .log-stats{
   width: 24%;
-  padding: 13px 0;
+  padding: 21px 0;
 }
 
 .desktop-num{
@@ -254,11 +253,13 @@ span {
 
 .hidden-skills {
   display:flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .top {
   height:30px;
-  /*width:75px;*/
+  flex: 1;
   background-color: #9EACA1;
   border-top: 2px #4F6367 solid;
   border-right: 1.5px #979797 solid;
@@ -301,7 +302,6 @@ span {
 
 .rotate-desc-light {
   margin: 0px;
-  /*flex: 1 1 90%;*/
   width: 45%;
   padding: 14px 0px 0px 10px;
   color: #4F6367;
@@ -324,7 +324,7 @@ span {
 }
 
 .dex-box {
-  /*flex: 1 1 30%;*/
+  height: 100%;
   background-color: #B8D8D8;
   transform: none;
   text-align: center;
@@ -369,3 +369,18 @@ span {
       flex: 1 1 35%;
       flex-wrap: wrap;
     }
+
+    .avatar {
+      width:100%;
+    }
+
+    .scroll {
+      display:none;
+    }
+
+    .special-title {
+      text-align: center;
+      justify-content: space-around;
+    }
+
+  }
