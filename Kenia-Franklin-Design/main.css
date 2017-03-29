@@ -215,23 +215,26 @@ h1, h2, h3, p{
 }
 
 .food-nums {
-  flex:1;
+  flex: 1;
   border-right: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .nums {
   font-weight: 700;
-  font-size: 1.15em;
+  font-size: 16px;
   margin: 15px 0px 0px 0px;
 }
 
 .subtext {
-  font-size: .5em;
+  font-size: 7px;
   margin: 0px 0px 15px;
 }
 
 span {
   margin:5px;
+  padding-left: 7px;
 }
 
 .img-wrapper {
@@ -359,9 +362,11 @@ span {
     .desktop-section{
       display: flex;
     }
+
     .mobile-section{
       display: none;
     }
+
     .main {
       display: flex;
       flex-wrap: wrap;
