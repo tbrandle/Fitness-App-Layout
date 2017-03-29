@@ -174,13 +174,14 @@ h1, h2, h3, p{
 
 .desktop-num{
   font-weight: 700;
-  font-size: 15px;
+  font-size: 19px;
 }
 
 .log-form *{
-  margin: 4px 0;
+  margin: 2px 0;
   width: 90%;
   border: 1px #979797 solid;
+  padding: 2px;
 }
 
 
@@ -190,6 +191,16 @@ h1, h2, h3, p{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.textarea {
+  height: 48px;
+}
+
+.submit{
+  background-color: #7A9E9F;
+  color: #EEF5DB;
+  border-radius: 6px 6px;
 }
 
 .graph-wrapper{
