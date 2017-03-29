@@ -57,20 +57,6 @@ h1, h2, h3, p{
   margin-bottom: 8px;
 }
 
-  /********** status **********/
-
-.avatar-name{
-
-}
-
-.level{
-
-}
-
-.stats{
-
-}
-
   /********** challenges **********/
 
 .desktop-section{
@@ -163,11 +149,55 @@ h1, h2, h3, p{
 
   /********** log **********/
 
-.food-log {
+.food-log,
+.log-wrapper {
   background-color: #EEF5DB;
   border: 1px #979797 solid;
   color:#4F6367;
   text-align:center;
+}
+
+.log-wrapper{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.log-stats *{
+  display: block;
+}
+
+.log-stats{
+  width: 24%;
+  padding: 13px 0;
+}
+
+.desktop-num{
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.log-form *{
+  margin: 4px 0;
+  width: 90%;
+  border: 1px #979797 solid;
+}
+
+
+.log-form {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graph-wrapper{
+  display: flex;
+  align-items: center;
+}
+.graph{
+  width: 105px;
 }
 
 .food-nums {
@@ -209,8 +239,7 @@ span {
   font-weight: 700;
   font-size: .6em;
 }
-/*
-hidden shit*/
+/*hidden shit*/
 
 .hidden-challenges {
   display:flex
