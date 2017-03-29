@@ -26,46 +26,50 @@
       <div class="title">
         <p>Challenges</p>
       </div>
+
       <div class="hidden-skills">
         <div class="top">STR</div>
         <div class="top top-dex">DEX</div>
         <div class="top">INT</div>
         <div class="top">CHR</div>
       </div>
-      <div class="goals">
-        <div class="row-box">
-          <div class="rotate box">
-            <p class="rotate-word box">STR</p>
+
+      <div class="wrapper">
+        <div class="goals">
+          <div class="row-box">
+            <div class="rotate box">
+              <p class="rotate-word box">STR</p>
+            </div>
+            <div class="rotate-desc">Do 50 situps</div>
           </div>
-          <div class="rotate-desc">Do 50 situps</div>
-        </div>
-        <div class="row-box">
-          <div class="rotate box dex-box">
-            <h3 class="dex-text">DEX</h3>
-            <h4 class="light">+20 pts</h4>
+          <div class="row-box">
+            <div class="rotate box dex-box">
+              <h3 class="dex-text">DEX</h3>
+              <h4 class="light">+20 pts</h4>
+            </div>
+            <div class="rotate-desc-light">
+              <h3>Run 3 miles</h3>
+              <h4 class="light">*add a friend for 10 CHR points</h4>
+            </div>
+            <div class="dex-map">
+              <img class='map' src="./images/map.png" alt="running map">
+            </div>
           </div>
-          <div class="rotate-desc-light">
-            <h3>Run 3 miles</h3>
-            <h4 class="light">*add a friend for 10 CHR points</h4>
+          <div class="row-box">
+            <div class="rotate box">
+              <p class="rotate-word box">INT</p>
+            </div>
+            <div class="rotate-desc">Read 30 pages</div>
           </div>
-          <div class="dex-map">
-            <img class='map' src="./images/map.png" alt="running map">
+          <div class="row-box">
+            <div class="rotate box">
+              <p class="rotate-word box">CHR</p>
+            </div>
+            <div class="rotate-desc">Healthy Lunch with a friend</div>
           </div>
-        </div>
-        <div class="row-box">
-          <div class="rotate box">
-            <p class="rotate-word box">INT</p>
-          </div>
-          <div class="rotate-desc">Read 30 pages</div>
-        </div>
-        <div class="row-box">
-          <div class="rotate box">
-            <p class="rotate-word box">CHR</p>
-          </div>
-          <div class="rotate-desc">Healthy Lunch with a friend</div>
         </div>
       </div>
-  </section>
+    </section>
 
 
   <!-- mobile section -->
@@ -75,17 +79,18 @@
     <div class="title">
       <p>Challenges</p>
     </div>
-
-    <div class="challenges dex">
-      <h2 class="skill">DEX</h2>
-      <p class="points">+20pts</p>
-    </div>
-    <div class="challenges miles">
-      <h3 class="run">Run 3 miles</h3>
-      <p class="chr">* add a friend for 10CHR pts</p>
-    </div>
-    <div class="challenges map-div">
-      <img class='map' src="./images/map.png" alt="running map">
+    <div class="wrapper">
+      <div class="challenges dex">
+        <h2 class="skill">DEX</h2>
+        <p class="points">+20pts</p>
+      </div>
+      <div class="challenges miles">
+        <h3 class="run">Run 3 miles</h3>
+        <p class="chr">* add a friend for 10CHR pts</p>
+      </div>
+      <div class="challenges map-div">
+        <img class='map' src="./images/map.png" alt="running map">
+      </div>
     </div>
   </section>
 
@@ -98,7 +103,7 @@
       <img class="icon" src="./images/right-arrow.svg" alt="" />
     </div>
 
-    <div class="calendar">
+    <div class="wrapper calendar">
       <div class="day">Sun.</div>
       <div class="day">Mon.</div>
       <div class="day">Tues.</div>
@@ -114,7 +119,7 @@
 
   <section class="section desktop-section">
     <p class="title">Food Log</p>
-    <div class="log-wrapper">
+    <div class="wrapper log-wrapper">
       <div class="log-stats">
         <p class="desktop-num">1,109</p>
         <p>Food goal</p>
@@ -142,19 +147,21 @@
 
   <section class="section mobile-section">
     <p class="title">Food Log</p>
-    <div class="food-log food-nums">
-      <p class="nums">1,109 - 1,700 + 273 = 864</p>
-      <p class="subtext">
-        <span>Food goal </span>
-        <span>Food today</span>
-        <span>Challenges</span>
-        <span>Remaining</span>
-      </p>
-    </div>
-    <div class="food-log log">
-      <div class="img-wrapper">
-        <img src="images/log-icon.png" alt="log icon">
-        <p class="log-text">Log</p>
+    <div class="wrapper">
+      <div class="food-log food-nums">
+        <p class="nums">1,109 - 1,700 + 273 = 864</p>
+        <p class="subtext">
+          <span>Food goal </span>
+          <span>Food today</span>
+          <span>Challenges</span>
+          <span>Remaining</span>
+        </p>
+      </div>
+      <div class="food-log log">
+        <div class="img-wrapper">
+          <img src="images/log-icon.png" alt="log icon">
+          <p class="log-text">Log</p>
+        </div>
       </div>
     </div>
   </section>
