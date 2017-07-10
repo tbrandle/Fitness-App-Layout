@@ -2,11 +2,17 @@
 
 This was a paired project that was designed to give teams a chance to walk through the entire lifecycle of a project brief: design, build, and client review/critique.
 
-The first stage of the project required us to generate wireframes and a comp using Sketch. Below you will find a copy of the desktop comp we submitted to another team:
+The first stage of the project required us to generate wireframes and a comp using Sketch. Below you will find a copy of the desktop and mobile comps that we submitted to another team:
 
+#### Desktop
 ![Imgur](http://i.imgur.com/IasHTSo.png)
 
-In the second phase of this project, we inherited a design challenge from another team to build out a static site. Those sketch comps are seen below:
+#### Mobile
+![Imgur](http://i.imgur.com/03Tm2Pm.png)
+
+## Inherited Comps
+
+During the second phase of this project, we inherited a design challenge from another team to build out a static site. Those sketch comps are seen below:
 
 ![Imgur](http://i.imgur.com/Gl81HuE.png)
 
